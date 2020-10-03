@@ -12,11 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Build Sapper
-        uses: truewebartisans/actions-sapper@master
+      - name: Use Node v12
+        uses: actions/setup-node@v1
         with:
-          build_mode: "export"
-          args: "--legacy --ext '.svelte .svx .md'"
+          node-version: '12.x'
+      - run: npm ci
+      - run: npm run export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
