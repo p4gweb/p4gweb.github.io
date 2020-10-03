@@ -8,16 +8,18 @@ on:
 
 jobs:
   build_deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
+
       - name: Build Sapper
         uses: truewebartisans/actions-sapper@master
         with:
           build_mode: "export"
           args: "--legacy --ext '.svelte .svx .md'"
+
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@master
+        uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: __sapper__/export
           publish_branch: gh-pages
