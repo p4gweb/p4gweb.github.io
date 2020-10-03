@@ -1,4 +1,6 @@
-AMSAT Phase 4 Ground project's web site experiment.
+# Phase4Ground __experimental__ web site
 
-[Website link](https://phase4ground.github.io/)
+This site uses [Sapper](https://sapper.svelte.dev/) and
+[mdsvex](https://mdsvex.pngwn.io/) to render Markdown (or
+HTML fragments).
 

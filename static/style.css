@@ -21,6 +21,14 @@ body {
  text-align:left;}
 
 
+h1
+{
+padding-top:8px;
+font-size:20px;
+font-weight:bold;
+color:#071027;
+}
+
 /* A Free Design by Bryant Smith (bryantsmith.com) */
 
 html, body {
@@ -132,15 +140,6 @@ margin-bottom:10px;
 background-image:url(tab_back.png);
 background-repeat:no-repeat;
 
-}
-
-.contentTitle h1
-{
-margin-left:10px;
-padding-top:8px;
-font-size:20px;
-font-weight:bold;
-color:#071027;
 }
 
 .comments
