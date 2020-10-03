@@ -4,3 +4,5 @@ This site uses [Sapper](https://sapper.svelte.dev/) and
 [mdsvex](https://mdsvex.pngwn.io/) to render Markdown (or
 HTML fragments).
 
+Content pages are in the **src/routes** directory tree.
+
