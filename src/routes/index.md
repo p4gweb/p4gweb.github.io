@@ -21,4 +21,5 @@ It's a golden age! Digital communications engineering has never been as fun and 
 
 ## Join the Team
 
-If you want to join the team, please <a href="http://lists.openresearch.institute/listinfo.cgi/ground-station-openresearch.institute">subscribe to the Ground-Station mailing list</a>, hosted by the <a href="https://openresearch.institute/">Open Research Institute</a>. Day-to-day work is carried out on our Slack account. 
+If you want to join the team, please <a href="http://lists.openresearch.institute/listinfo.cgi/ground-station-openresearch.institute">subscribe to the Ground-Station mailing list</a>, hosted by the <a href="https://openresearch.institute/">Open Research Institute</a>. Day-to-day work is carried out on our Slack channels.
+
