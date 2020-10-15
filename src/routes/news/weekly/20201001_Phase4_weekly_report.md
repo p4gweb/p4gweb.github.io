@@ -1,5 +1,6 @@
 ---
 title: 2020-10-01
+tags: ["ORI", "SNAP-R", "HamCation", "SBMS"]
 ---
 # 20201001 Weekly Engineering Report
 

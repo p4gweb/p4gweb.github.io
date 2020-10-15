@@ -8,7 +8,6 @@
 
 <script>
 	export let posts;
-	console.log(posts);
 </script>
 
 <style>
@@ -30,6 +29,13 @@
 				tell Sapper to load the data for the page as soon as
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
-		<li><a rel="prefetch" href="news/{post.link}">{post.title}</a></li>
+		<li><a rel="prefetch" href="news/{post.link}">{post.title}</a>
+			<br>
+			{#if post.tags}
+				{#each post.tags as tag}
+					&nbsp;&nbsp;&nbsp;&nbsp;{tag}
+				{/each}
+			{/if}
+		</li>
 	{/each}
 </ul>

@@ -1,5 +1,6 @@
 ---
 title: 2020-08-03
+tags: ["mechanical", "Voltera", "Ultimaker", "CNC", "cutter"]
 ---
 Greetings all!
 
